@@ -1,6 +1,6 @@
 # image-control
 
-### 'JPEGEncodeMImageToBase64(image, quality, callback)'
+### `JPEGEncodeMImageToBase64(image, quality, callback)`
 
 **image** = MImage object
 
@@ -8,7 +8,7 @@
 
 **callback** = callback function(error, base64Img)
 
-### 'JPEGEncodeMImageToBuffer(image, quality, callback)'
+### `JPEGEncodeMImageToBuffer(image, quality, callback)`
 
 **image** = MImage object
 
@@ -16,19 +16,19 @@
 
 **callback** = callback function(error, buffer)
 
-### 'JPEGDecodeFileToMImage(path, callback)'
+### `JPEGDecodeFileToMImage(path, callback)`
 
 **path** = src image path
 
 **callback** = callback function(error, MImage object)
 
-### 'JPEGDecodeBase64ToMImage(data, callback)'
+### `JPEGDecodeBase64ToMImage(data, callback)`
 
 **data** = src image with base64 format
 
 **callback** = callback function(error, MImage object)
 
-### 'JPEGDecodeBufferToMImage(data, callback)'
+### `JPEGDecodeBufferToMImage(data, callback)`
 
 **data** = src image with buffer
 
